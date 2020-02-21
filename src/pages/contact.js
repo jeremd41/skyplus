@@ -3,10 +3,14 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TopPage from "../components/topPage"
+
+import Cover from "../images/header-skyplus.jpg"
 
 const contact = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Contact" />
+    <TopPage imageTop={Cover} titleTop="Contact" />
   </Layout>
 )
 

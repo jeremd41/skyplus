@@ -8,6 +8,7 @@ a {
 body {
   margin: 0;
   padding: 0;
+  padding-top: 78px;
   font-family: "Merriweather Sans", sans-serif;
   background-color: #f4f4f4;
 }
@@ -16,11 +17,17 @@ a {
   color: #05eaff;
 }
 
+.icon {
+  width: 26px;
+  height: 26px;
+}
+
 /* ------------- HEADER ------------- */
 
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   width: 100%;
